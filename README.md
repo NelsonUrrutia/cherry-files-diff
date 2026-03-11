@@ -1,14 +1,14 @@
-# 🍒 Cherry Files Diff (CFD) 🔎
+# 🍒 Cherry Diff Files (CDF) 🔎
 
-> Cherry Files Diff is a local Git tool that helps you cherry-pick only the specific lines or code blocks you want from a source branch into a target branch, so you can avoid conflicts, review the result, and commit a clean, minimal change set.
+> Cherry Diff Files is a local Git tool that helps you cherry-pick only the specific lines or code blocks you want from a source branch into a target branch, so you can avoid conflicts, review the result, and commit a clean, minimal change set.
 
 ## Overview
 
-Cherry Files Diff is a local Git helper for transferring selected blocks/lines of code from a source branch file into a target branch file.
+Cherry Diff Files is a local Git helper for transferring selected blocks/lines of code from a source branch file into a target branch file.
 
 ## Problem It Solves
 
-Standard merges/cherry-picks often bring along unwanted changes or create conflicts. CFD focuses on moving only the intended parts of files between branches.
+Standard merges/cherry-picks often bring along unwanted changes or create conflicts. CDF focuses on moving only the intended parts of files between branches.
 
 ## Key Features
 
@@ -29,7 +29,7 @@ Standard merges/cherry-picks often bring along unwanted changes or create confli
 1. Choose source branch and target branch
 2. Compare a file in both branches (diff view)
 3. Select and transfer specific lines/blocks into the target version (and/or manually edit)
-4. CFD stores the edited content, switches to the target branch, and applies changes
+4. CDF stores the edited content, switches to the target branch, and applies changes
 5. Review the final result and commit (locally)
 
 ## Implementation Notes (From Spec)
